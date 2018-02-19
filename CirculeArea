@@ -1,0 +1,14 @@
+public class Main {
+    public static void main() {
+	double radio;
+	double area;
+	double perimeter;
+		
+	Scanner r = new Scanner(System.in);
+	radio = r.nextDouble();
+	area= Math.PI * Math.pow(radio,2)
+	perimeter = 2*Math.PI*radio;
+    System.out.println("Half area:"+ area/2); 
+    } 
+}
+
